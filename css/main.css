@@ -151,6 +151,8 @@ and margins,paddings that define the look of the page*/
     display: flex;
     -ms-flex-pack: distribute;
         justify-content: space-around;
+    -webkit-transition: all 0s;
+    transition: all 0s;
   }
   .menu__label, .menu__checkbox:checked ~ .menu__label {
     display: none;
