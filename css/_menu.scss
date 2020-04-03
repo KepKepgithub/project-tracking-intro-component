@@ -77,6 +77,7 @@
 
 
 @media (min-width:1024px){
+    // selecting both checked and unchecked states of the menu in case user forgets to uncheck the menu before re-sizing
     .menu, .menu__checkbox:checked ~ .menu{
         position: initial;
         width: 45%;

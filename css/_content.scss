@@ -1,0 +1,93 @@
+@media (min-width:300px){
+    .content{
+        .illustration{
+            padding-top: 1rem;
+            margin-bottom: 5rem;
+            width: 158%;
+            margin-left: -1.75rem;
+        }
+        .text{
+            &__heading{
+                text-transform: uppercase;
+                font-size: 2.5rem;
+                color: $very_dark_blue;
+                margin-bottom: .75rem;
+                &--small{
+                    text-transform: uppercase;
+                    font-size: 1.25rem;
+                    color: $grayish_blue;
+                    letter-spacing: .2rem;
+                    font-weight: 400;
+
+                    margin-bottom: 1rem;
+                }
+                &--dark_bg{
+                    background: $very_dark_blue;
+                    color: white;
+                    border-radius: 1rem;
+                    padding: .2em .5em .2em .8em;
+                    font-weight: bold;
+                }
+            }
+            &__paragraph{
+                color: $very_dark_blue;
+                margin-bottom: 2rem;
+            }
+            &__button_wrap{
+                margin-bottom: 2rem;
+            }
+            &__button{
+                background-color: $red;
+                color: white;
+                border: none;
+                padding: .75em 1.25em;
+                border-radius: .25rem;
+                text-transform: uppercase;
+                font-weight: bold;
+                font-size: 1rem;
+
+                margin-right: .5rem;
+                letter-spacing: .05rem;
+
+                &:hover{
+                    opacity: 0.7;
+                }
+                &--side_text{
+                    text-transform: uppercase;
+                    font-size: 1.25rem;
+                    color: $grayish_blue;
+                    font-family: 'Barlow Condensed', sans-serif;
+                    letter-spacing: .02rem;
+                }
+            }
+        }
+    }
+}
+
+@media (min-width:1024px){
+    .content{
+        position: relative;
+        &__text{
+            width: 40%;
+            padding-top: 1.50rem;
+        }
+        .text{
+            &__heading{
+                font-size: 3.5rem;
+                &--small{
+                    font-size: 1.25rem;
+                }
+            }
+            &__paragraph{
+                padding-right: 12rem;
+                margin-bottom: 3.5rem;
+            }
+        }
+        .illustration{
+            position: absolute;
+            right: -35%;
+            top: 0;
+            width: 85%;
+        }
+    }
+}
