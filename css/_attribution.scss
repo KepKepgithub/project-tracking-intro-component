@@ -1,0 +1,20 @@
+@media (min-width:300px){
+    .attribution{
+        color: $very_dark_blue;
+        text-align: center;
+        padding-bottom: 2rem;
+        a{
+            text-decoration: none;
+            color: $red;
+            &:hover{
+                text-decoration: underline;
+            }
+        }
+    }
+}
+
+@media (min-width:1024px){
+    .attribution{
+        text-align: left;
+    }
+}

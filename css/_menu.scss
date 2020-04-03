@@ -87,6 +87,7 @@
         padding: 0;
         pointer-events: initial;
         box-shadow: none;
+        background-color: transparent; 
 
         text-align: left;
         display: flex;
@@ -113,7 +114,7 @@
                     border-radius: 50%;
                     left: -4rem;
                     top: .4rem;
-                    background: $light_blue;
+                    background: $grayish_blue;
                 }
             }
         }

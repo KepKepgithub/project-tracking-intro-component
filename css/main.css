@@ -32,6 +32,7 @@ and margins,paddings that define the look of the page*/
     width: 100%;
     margin: auto;
     padding: 0 1.25em;
+    position: relative;
   }
 }
 
@@ -145,6 +146,7 @@ and margins,paddings that define the look of the page*/
     pointer-events: initial;
     -webkit-box-shadow: none;
             box-shadow: none;
+    background-color: transparent;
     text-align: left;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -177,7 +179,7 @@ and margins,paddings that define the look of the page*/
     border-radius: 50%;
     left: -4rem;
     top: .4rem;
-    background: #eef3f6;
+    background: #a0a1ac;
   }
 }
 
@@ -263,6 +265,46 @@ and margins,paddings that define the look of the page*/
     right: -35%;
     top: 0;
     width: 85%;
+  }
+}
+
+@media (min-width: 300px) {
+  .attribution {
+    color: #242942;
+    text-align: center;
+    padding-bottom: 2rem;
+  }
+  .attribution a {
+    text-decoration: none;
+    color: #ff5c5c;
+  }
+  .attribution a:hover {
+    text-decoration: underline;
+  }
+}
+
+@media (min-width: 1024px) {
+  .attribution {
+    text-align: left;
+  }
+}
+
+@media (min-width: 300px) {
+  .square_bg {
+    width: 200px;
+    height: 430px;
+    background-color: #eef3f6;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: -1;
+    border-bottom-left-radius: 4rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .square_bg {
+    width: 58%;
   }
 }
 /*# sourceMappingURL=main.css.map */
